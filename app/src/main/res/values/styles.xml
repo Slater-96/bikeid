@@ -1,0 +1,26 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="popupTheme">@style/PopupTheme</item>
+        <!--<item name="android:navigationBarColor">@color/colorPrimary</item>-->
+    </style>
+
+    <style name="PopupTheme" parent="Theme.AppCompat.Light">
+        <item name="android:background">@color/color_background</item>
+        <item name="android:textColor">@color/color_item</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="boton_estilo">
+        <item name="android:background">@drawable/stilo_boton</item>
+    </style>
+
+</resources>

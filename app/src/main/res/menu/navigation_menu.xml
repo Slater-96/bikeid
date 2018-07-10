@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:title="@string/perfil"
+            android:icon="@drawable/user_circle"
+            android:id="@+id/perfil_id">
+        </item>
+        <item
+            android:title="@string/tiendas_favoritas"
+            android:icon="@drawable/tienda"
+            android:id="@+id/Tiendas_id">
+        </item>
+        <item
+            android:title="@string/enviar_comentarios"
+            android:icon="@drawable/comentarios"
+            android:id="@+id/comentarios_id">
+        </item>
+    </group>
+
+    <item
+        android:title="@string/opciones_avanzadas">
+        <menu>
+            <item
+                android:title="@string/configurar_perfil"
+                android:icon="@drawable/confg"
+                android:id="@+id/configurar_id">
+            </item>
+            <item
+                android:title="@string/ayuda"
+                android:icon="@drawable/ayuda"
+                android:id="@+id/ayuda_id">
+            </item>
+            <item
+                android:title="@string/cerrar_sesi_n"
+                android:icon="@drawable/cerrar_sesion"
+                android:id="@+id/cerrar_id">
+            </item>
+        </menu>
+    </item>
+</menu>
